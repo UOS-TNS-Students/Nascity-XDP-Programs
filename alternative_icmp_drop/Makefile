@@ -11,7 +11,7 @@ show:
 	ip -d link show dev lo
 
 test:
-	ping -c 4 127.0.0.1
+	ping -c 10 127.0.0.1
 
 dump:
 	sudo tcpdump -i lo icmp &
